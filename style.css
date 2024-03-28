@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inknut Antiqua';
+    background-color: #cda56aF0;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+#pesquisar {
+    position: absolute;
+    left: 23vw;
+    background-color: #FEEEDBF2;
+    width: 50vw;
+    min-height: 75vh;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#titulo {
+    font-size: 22px;
+    text-align: center;
+}
+
+#labPers {
+    font-size: 18px;
+}
+
+#personagem {
+    background-color: #FFFAF4F2;
+    border: none;
+    padding: 10px;
+
+    border-radius: 5px;
+    width: 20vw;
+}
+
+#personagens{
+    justify-content: center;
+}
+
+button{
+    font-family: 'Inknut Antiqua';
+    border-radius: 5px;
+    background-color: #e7af6af2;
+    outline: none;
+    border: none;
+    transition: transform 0.5s ease; 
+    justify-items: center;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: #f09425f2;
+}
+button:active {
+    transform: scale(0.8);
+}
